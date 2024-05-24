@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+      time: "12:12"
+    groups:
+      dev-dependencies:
+        applies-to: security-updates
+        patterns:
+          - "*"
+    reviewers:
+      - "Hemal-Botadra"
