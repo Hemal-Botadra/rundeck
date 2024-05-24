@@ -7,7 +7,7 @@ gTTS==2.2.2
 idna==2.10
 jdcal==1.4.1
 mysql-connector==2.2.9
-mysql-connector-python==8.0.23
+mysql-connector-python==8.4.0
 namedtupled==0.3.3
 numpy==1.23.0
 openpyxl==3.0.6
