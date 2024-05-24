@@ -4,9 +4,10 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "13:37"
+      time: "14:33"
+    open-pull-requests-limit: 0
     groups:
-      dependencies:
+      dev-dependencies:
         applies-to: security-updates
         patterns:
           - "*"
