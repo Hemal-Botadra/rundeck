@@ -4,9 +4,9 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "12:23"
+      time: "12:28"
     groups:
-      dev-dependencies:
+      dev-prod-dependencies:
         patterns:
           - "*"
     reviewers:
