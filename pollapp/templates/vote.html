@@ -1,0 +1,27 @@
+
+<html>
+<body>
+
+<h3>Caste Your vote</h3>
+
+<h5>{{poll.question}}</h5>
+
+<form method="POST">
+    {% csrf_token %}
+    <label>
+        <input type="radio" name="poll" value="option1" required>
+        {{ poll.option_one }}
+    </label> &nbsp;
+    <label>
+        <input type="radio" name="poll" value="option2">
+        {{ poll.option_two }}
+    </label> &nbsp;
+    <label>
+        <input type="radio" name="poll" value="option3">
+        {{ poll.option_three }}
+    </label> &nbsp;
+    <button type="submit">Submit</button>
+
+</form>
+</body>
+</html>

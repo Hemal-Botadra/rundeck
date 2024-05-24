@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<h1>Welcome To Poll Application</h1>
+<li><a href="{% url 'homepage' %}">Home</a></li>
+<li><a href="{% url 'make' %}">Create</a></li>
+<br>
+<br>
+<table border="1">
+    <tr>
+        <th>Questions</th>
+        <th>Vote</th>
+        <th>Results</th>
+    </tr>
+    <tbody>
+    {% for poll in polls %}
+        <tr>
+            <td>{{poll.question}}</td>
+            <td><a href="{% url 'vote' poll.id %}">Vote</a></td>
+             <td><a href="{% url 'result' poll.id %}">View Results</a></td>
+
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+</body>
+</html>
