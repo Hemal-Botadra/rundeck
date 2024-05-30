@@ -19,5 +19,5 @@ requests==2.24.0
 sendgrid==6.9.7
 six==1.15.0
 urllib3==1.25.10
-XlsxWriter==3.0.3
+XlsxWriter==3.2.0
 et-xmlfile==1.0.0
