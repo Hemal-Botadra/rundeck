@@ -4,11 +4,9 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "20:38"
+      time: "22:14"
     groups:
       dev-prod-dependencies:
         applies-to: security-updates
-        patterns:
-          - "*"
     reviewers:
       - "Hemal-Botadra"
