@@ -3,12 +3,13 @@ from setuptools import setup
 install_requires = [
     "ddtrace",
     "grpcio",
-    "protobuf==2.15.3",
+    "protobuf",
     "pxproto",
     "python-json-logger",
     "redis[hiredis]<4.4",
     "uvloop",
     "Pillow",
+    "idna==1.10"
     "apache-airflow[kubernetes]==2.9.0",
 ]
 
