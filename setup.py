@@ -6,7 +6,7 @@ install_requires = [
     "protobuf",
     "pxproto",
     "python-json-logger",
-    "redis[hiredis]<4.4",
+    "redis[hiredis]<5.1",
     "uvloop",
     "Pillow",
     "idna==1.10",
