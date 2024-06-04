@@ -6,7 +6,7 @@ install_requires = [
     "protobuf==2.15.3",
     "pxproto",
     "python-json-logger",
-    "redis[hiredis]<4.4",
+    "redis[hiredis]<5.1",
     "uvloop",
     "Pillow",
     "apache-airflow[kubernetes]==2.9.0",
