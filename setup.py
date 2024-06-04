@@ -9,7 +9,7 @@ install_requires = [
     "redis[hiredis]<4.4",
     "uvloop",
     "Pillow",
-    "idna==1.10"
+    "idna==1.10",
     "apache-airflow[kubernetes]==2.9.0",
 ]
 
