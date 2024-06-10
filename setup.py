@@ -10,7 +10,7 @@ install_requires = [
     "uvloop",
     "Pillow",
     "idna==1.10",
-    "apache-airflow[kubernetes]==2.9.0",
+    "apache-airflow[kubernetes]==2.9.2",
 ]
 
 setup(
